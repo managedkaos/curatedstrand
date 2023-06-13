@@ -1,0 +1,29 @@
+# .dockerignore
+
+# Files and directories to exclude from the Docker build context
+test_main.py
+Makefile
+
+# Python bytecode files
+*.pyc
+__pycache__
+
+# Development and environment files
+.env
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Testing and CI files
+.coverage
+.pytest_cache/
+
+# Docker files
+Dockerfile
+.dockerignore
+
+# Project-specific files and directories
+venv/
+
